@@ -1,0 +1,13 @@
+{
+  "itemGroup.sombumod": "Example Mod Tab",
+  "block.sombumod.example_block": "Example Block",
+  "item.sombumod.example_item": "Example Item",
+
+  "sombumod.configuration.title": "SombuMod Configs",
+  "sombumod.configuration.section.sombumod.common.toml": "SombuMod Configs",
+  "sombumod.configuration.section.sombumod.common.toml.title": "SombuMod Configs",
+  "sombumod.configuration.items": "Item List",
+  "sombumod.configuration.logDirtBlock": "Log Dirt Block",
+  "sombumod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sombumod.configuration.magicNumber": "Magic Number"
+}
