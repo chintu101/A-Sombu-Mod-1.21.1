@@ -74,6 +74,7 @@ public class SombuMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BISMUTH); //adding Bismuth to the ingredients tab in creative
+            event.accept(ModItems.RAW_BISMUTH); // adding raw_bismuth to ingredients tab in creative
         }
 
     }
