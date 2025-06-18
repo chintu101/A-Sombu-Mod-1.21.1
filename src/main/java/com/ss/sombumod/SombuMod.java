@@ -84,7 +84,7 @@ public class SombuMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             // Some client setup code
-            
+
         }
     }
 }
