@@ -64,6 +64,10 @@ public class SombuMod {
             event.accept(ModItems.RAW_BISMUTH); // adding raw_bismuth to ingredients tab in creative
         }
 
+        if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS){
+            event.accept(Modblocks.BISMUTH_BLOCK);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
