@@ -23,6 +23,12 @@ public class Modblocks {
                     .strength(4f)
                     .sound(SoundType.BONE_BLOCK)));
 
+    public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4f)
+                    .sound(SoundType.STONE)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

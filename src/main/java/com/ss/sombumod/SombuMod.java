@@ -64,8 +64,12 @@ public class SombuMod {
             event.accept(ModItems.RAW_BISMUTH); // adding raw_bismuth to ingredients tab in creative
         }
 
-        if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS){
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(Modblocks.BISMUTH_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(Modblocks.BISMUTH_ORE);
         }
 
     }

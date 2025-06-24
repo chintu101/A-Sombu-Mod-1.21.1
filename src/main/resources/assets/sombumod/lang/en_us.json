@@ -4,7 +4,8 @@
   "item.sombumod.example_item": "Example Item",
   "item.sombumod.bismuth": "Bismuth",
   "item.sombumod.raw_bismuth": "Raw Bismuth",
-  "block.sombumod.bismuth_block": "Bismuth_block",
+  "block.sombumod.bismuth_block": "Block of Bismuth",
+  "block.sombumod.bismuth_ore": "Bismuth ore",
 
   "sombumod.configuration.title": "SombuMod Configs",
   "sombumod.configuration.section.sombumod.common.toml": "SombuMod Configs",
