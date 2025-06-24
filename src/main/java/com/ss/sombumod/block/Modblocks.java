@@ -17,7 +17,7 @@ import java.util.function.Supplier;
 public class Modblocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SombuMod.MODID);
 
-    public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("Bismuth",
+    public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .strength(4f)
