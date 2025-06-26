@@ -6,6 +6,7 @@
   "item.sombumod.raw_bismuth": "Raw Bismuth",
   "block.sombumod.bismuth_block": "Block of Bismuth",
   "block.sombumod.bismuth_ore": "Bismuth ore",
+  "block.sombumod.custom_trial": "Corium",
 
   "sombumod.configuration.title": "SombuMod Configs",
   "sombumod.configuration.section.sombumod.common.toml": "SombuMod Configs",
