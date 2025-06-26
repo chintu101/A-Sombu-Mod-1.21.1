@@ -33,7 +33,7 @@ public class Modblocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .strength(4f)
-                    .sound(SoundType.NETHERITE_BLOCK)));
+                    .sound(SoundType.TRIAL_SPAWNER)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
