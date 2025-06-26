@@ -29,6 +29,12 @@ public class Modblocks {
                     .strength(4f)
                     .sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> CUSTOM = registerBlock("custom_trial",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4f)
+                    .sound(SoundType.NETHERITE_BLOCK)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

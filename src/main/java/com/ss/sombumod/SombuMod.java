@@ -66,6 +66,7 @@ public class SombuMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(Modblocks.BISMUTH_BLOCK);
+            event.accept(Modblocks.CUSTOM);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
