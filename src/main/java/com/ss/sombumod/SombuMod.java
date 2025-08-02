@@ -1,6 +1,5 @@
 package com.ss.sombumod;
 
-import com.ss.sombumod.item.ModCreativeModTabs;
 import com.ss.sombumod.item.ModItems;
 import com.ss.sombumod.block.Modblocks;
 import org.slf4j.Logger;
@@ -43,7 +42,7 @@ public class SombuMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        ModCreativeModTabs.register(modEventBus);
+
 
         ModItems.register(modEventBus);//calling the register function from ModItems class
         Modblocks.register(modEventBus);
