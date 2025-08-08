@@ -23,3 +23,7 @@ Additional Resources:
 ==========
 Community Documentation: https://docs.neoforged.net/  
 NeoForged Discord: https://discord.neoforged.net/
+
+*Modding Resources*:
+Recipes Help: https://misode.github.io/recipe/
+
