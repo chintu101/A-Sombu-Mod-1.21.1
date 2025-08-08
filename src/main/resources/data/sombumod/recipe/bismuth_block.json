@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "B": {
-    "item":"sombumod:bismuth"
+      "item": "sombumod:bismuth"
     }
   },
   "pattern": [
@@ -13,9 +13,8 @@
   ],
   "result": {
     "count": 1,
-    "key": "sombumod:bismuth_block"
+    "id": "sombumod:bismuth_block"
   }
-
 
 
 }
