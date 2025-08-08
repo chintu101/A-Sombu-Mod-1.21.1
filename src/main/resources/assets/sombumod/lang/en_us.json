@@ -8,6 +8,9 @@
   "block.sombumod.bismuth_ore": "Bismuth ore",
   "block.sombumod.custom_trial": "Corium",
 
+  "creativetab.sombumod.bismuth_items": "Bismuth Items",
+  "creativetab.sombumod.bismuth_blocks": "Bismuth Blocks",
+
   "sombumod.configuration.title": "SombuMod Configs",
   "sombumod.configuration.section.sombumod.common.toml": "SombuMod Configs",
   "sombumod.configuration.section.sombumod.common.toml.title": "SombuMod Configs",
