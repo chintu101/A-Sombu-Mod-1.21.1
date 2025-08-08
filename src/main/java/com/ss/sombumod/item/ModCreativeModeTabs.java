@@ -34,6 +34,14 @@ public class ModCreativeModeTabs {
                         output.accept(Modblocks.BISMUTH_ORE);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> RADIOACTIVE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("radioactive_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Modblocks.CUSTOM.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(SombuMod.MODID, "bismuth_blocks_tab"))
+                    .title(Component.translatable("creativetab.sombumod.radioactive_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(Modblocks.CUSTOM);
+                    }).build());
+
 
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TAB.register(eventBus);

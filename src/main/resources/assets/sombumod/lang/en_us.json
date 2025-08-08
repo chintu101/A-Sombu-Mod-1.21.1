@@ -1,7 +1,9 @@
 {
   "itemGroup.sombumod": "Example Mod Tab",
+
   "block.sombumod.example_block": "Example Block",
   "item.sombumod.example_item": "Example Item",
+
   "item.sombumod.bismuth": "Bismuth",
   "item.sombumod.raw_bismuth": "Raw Bismuth",
   "block.sombumod.bismuth_block": "Block of Bismuth",
@@ -10,6 +12,7 @@
 
   "creativetab.sombumod.bismuth_items": "Bismuth Items",
   "creativetab.sombumod.bismuth_blocks": "Bismuth Blocks",
+  "creativetab.sombumod.radioactive_blocks": "Radioactive Blocks",
 
   "sombumod.configuration.title": "SombuMod Configs",
   "sombumod.configuration.section.sombumod.common.toml": "SombuMod Configs",
