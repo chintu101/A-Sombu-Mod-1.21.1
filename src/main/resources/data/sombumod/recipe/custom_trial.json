@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": "200",
-  "experience": "1000",
+  "experience": "100",
   "group": "custom",
   "ingredient": {
     "item": "minecraft:diamond_block"
